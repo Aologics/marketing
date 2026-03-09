@@ -1,8 +1,8 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.
+description: "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, product pages, event pages, ticket pages, registration pages, sales pages, or service pages. Also use when the user says 'write copy for,' 'improve this copy,' 'rewrite this page,' 'marketing copy,' 'headline help,' 'CTA copy,' 'page copy,' or 'promotional copy.' This skill works for SaaS, events, nonprofits, agencies, and any other product or service. For email copy, see email-sequence. For popup copy, see popup-cro."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Copywriting
@@ -17,7 +17,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 Gather this context (ask if not provided):
 
 ### 1. Page Purpose
-- What type of page? (homepage, landing page, pricing, feature, about)
+- What type of page? (homepage, landing page, pricing, feature, about, event, ticket, service)
 - What is the ONE primary action you want visitors to take?
 
 ### 2. Audience
@@ -194,6 +194,17 @@ Examples:
 - Connect mission to customer benefit
 - Still include a CTA
 
+### Event / Ticket Page
+- Lead with the experience and outcome, not logistics
+- Anchor on who it's for and what they'll leave with
+- Address access, pricing tiers, and any access programs clearly
+- CTA should reflect the action: "Get Your Tickets," "Reserve Your Seat"
+
+### Service Page
+- Lead with the outcome the client gets, not the service description
+- Address fit: who this is for and who it isn't
+- Include process, proof, and a clear next step
+
 ---
 
 ## Voice and Tone
@@ -250,3 +261,4 @@ For headlines and CTAs, provide 2-3 options:
 - **email-sequence**: For email copywriting
 - **popup-cro**: For popup and modal copy
 - **ab-test-setup**: To test copy variations
+- **event-marketing**: For event-specific positioning and promotional copy
