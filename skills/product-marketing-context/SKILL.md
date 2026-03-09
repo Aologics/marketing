@@ -2,7 +2,7 @@
 name: product-marketing-context
 description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.agents/product-marketing-context.md` that other marketing skills reference."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Product Marketing Context
@@ -57,7 +57,7 @@ For each section:
 - One-line description
 - What it does (2-3 sentences)
 - Product category (what "shelf" you sit on—how customers search for you)
-- Product type (SaaS, marketplace, e-commerce, service, etc.)
+- Product type (SaaS, marketplace, e-commerce, service, event, nonprofit, agency, etc.)
 - Business model and pricing
 
 ### 2. Target Audience
@@ -121,7 +121,7 @@ The JTBD Four Forces:
 
 ### 12. Goals
 - Primary business goal
-- Key conversion action (what you want people to do)
+- Key conversion action (what you want people to do — can be a purchase, ticket sale, form submission, demo request, donation, registration, or any other primary action)
 - Current metrics (if known)
 
 ---
@@ -238,4 +238,4 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 - **Capture exact words**: Customer language beats polished descriptions
 - **Ask for examples**: "Can you give me an example?" unlocks better answers
 - **Validate as you go**: Summarize each section and confirm before moving on
-- **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
+- **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C, switching dynamics for new categories)
