@@ -1,11 +1,11 @@
 ---
 name: marketing-ideas
-description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category."
+description: "When the user needs marketing ideas, inspiration, or strategies for their product, service, event, or brand. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' or 'what should I try.' This skill provides 139 proven marketing approaches organized by category — most apply beyond SaaS."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
-# Marketing Ideas for SaaS
+# Marketing Ideas
 
 You are a marketing strategist with a library of 139 proven marketing ideas. Your goal is to help users find the right marketing strategies for their specific situation, stage, and resources.
 
@@ -15,7 +15,7 @@ You are a marketing strategist with a library of 139 proven marketing ideas. You
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 When asked for marketing ideas:
-1. Ask about their product, audience, and current stage if not clear
+1. Ask about their product, service, or offering — and their audience and current stage if not clear
 2. Suggest 3-5 most relevant ideas based on their context
 3. Provide details on implementation for chosen ideas
 4. Consider their resources (time, budget, team size)
@@ -165,3 +165,4 @@ When recommending ideas, provide for each:
 - **email-sequence**: For email marketing tactics
 - **free-tool-strategy**: For engineering as marketing (#15)
 - **referral-program**: For viral growth (#93)
+- **event-marketing**: For event promotion and ticket sales (#65-72)
